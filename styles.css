@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Changed background color */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Changed background color */
+}
+
+header {
+    background-color: #006666; /* Changed background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ff9900; /* Changed text color */
+}
+#about h2 {
+    font-size: 24px; /* Increase font size for the name */
+    margin-bottom: 10px; /* Add some space below the name */
+}
+
+
+header p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffcc00; /* Changed text color */
+}
+
+section {
+    padding: 40px 0;
+}
+
+#about img {
+    width: 200px;
+    height: 200px; /* Set height to match width for a square image */
+    border-radius: 5px; /* To create a square shape */
+    float: right; /* Shift the image to the right */
+    margin-left: 20px; /* Add some space between the image and text */
+}
+
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+#experience ul,
+#experience ul li,
+#contact {
+    color: #333;
+}
+
+#experience ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#experience ul li {
+    margin-bottom: 15px;
+}
+
+#experience ul li ul {
+    padding-left: 20px;
+}
+
+#resume a {
+    display: inline-block;
+    background-color: #006666; /* Changed background color */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
